@@ -12,6 +12,9 @@ class TestCalculator:
         assert 4 == calculator.add(2, 2)
 
     def test_subtraction(self):
-        """unit test for substration"""
+        """unit test for substration    """
         assert 2 == calculator.subtract(4, 2)
- 
+
+    def test_multiplication(self):
+        """unit test for multiplication    """
+        assert 100 == calculator.multiply(10, 10)
